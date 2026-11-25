@@ -1138,5 +1138,34 @@ window.addEventListener('scroll', () => {
   });
 }, {passive:true});
 </script>
+
+<!-- Chat widget -->
+<script>
+(function(w, d, s, u) {
+  w.gbwawc = {
+    url: u,
+    options: {
+      waId: "+917504131330",
+      siteName: "UIB Group",
+      siteTag: "Engineering The Skills To Next Height",
+      widgetPosition: "LEFT",
+      triggerMessage: "Hi! I'm interested in your property",
+      welcomeMessage: "A premier engineering consultancy delivering Manpower Supply, AutoCAD Design, Civil Construction & Material Supply across India’s most demanding infrastructure projects.",
+      brandColor: "#25D366",
+      messageText: "Hi! I'm interested in your Project",
+      replyOptions: ["Let's Chat", ],
+	
+    },
+  };
+  var h = d.getElementsByTagName(s)[0],
+    j = d.createElement(s);
+  j.async = true;
+  j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+  h.parentNode.insertBefore(j, h);
+})(window, document, "script", "https://waw.gallabox.com");
+</script>
+<!-- /Chat widget -->
+
+  
 </body>
 </html>
